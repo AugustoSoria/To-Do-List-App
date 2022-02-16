@@ -49,8 +49,8 @@ class Lista extends Component {
                     </div>
                     <ul>
                         {this.state.tareas.map((tarea) => (
-                            <div className='li-btn' key={tarea.id} id={tarea.id}>
-                                <li className="lista-item"> {tarea.titulo} </li>
+                            <div className='item-div'  key={tarea.id} id={tarea.id}>
+                                <li className="lista-item" title={tarea.titulo}> {tarea.titulo} </li>
                                 <button className="btn-eliminar" onClick={() => this.eliminarTarea(tarea.id)}> X </button>
                             </div>
                             )

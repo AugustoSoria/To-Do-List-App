@@ -72,9 +72,10 @@ li {
     padding-left: 5px;
 }
 
-.li-btn {
+.item-div {
     display: flex; 
-    height: 25px
+    height: 25px;
+    margin-top: .5em
 }
 
 .btn-agregar, .btn-eliminar {
